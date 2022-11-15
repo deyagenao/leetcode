@@ -4,8 +4,12 @@ This repository is a collection of my solutions for LeetCode Problems. I am usin
 
 ### Solutions Tracker 
 11-15-2022:
-- []() 
-	+ 
+- [383. Ransom Note](https://leetcode.com/problems/ransom-note/) 
+	+ Created a hashmap with the characters from the magazine string. Then iterated over the characters from the ransom note to see if there were enough of each char available. 
+	+ Alternative solution: creating an array with 26 positions to represent alphabet. Using each position to hold a count of the number of that specific letter in the string. The position is calculated using the ASCII value of the letter.  
+- [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
+	+ Created a hashmap to store the value of the possible Roman digits. Then iterated over the Roman numeral from the end, checking if there was a digit preceding the current one that could be of lesser value. If yes, then the value was calculated differently (IV -> 4). If no, then the value was added to a total integer value. Multiple if statements could probably be simplified. 
+	+ Alternative to checking if at index 0 to avoid IndexOutOfBoundsException is starting from the second to last position and checking i and i+1 (my solution included i and i-1) 
 
 
 11-14-2022: 
