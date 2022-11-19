@@ -3,6 +3,10 @@
 This repository is a collection of my solutions for LeetCode Problems. I am using this help track my completion of problems as well as my progression with problem solving and better understanding data structures and algorithms. I share my original solutions to the problems, and then search discussion boards for alternative and more efficient solutions. 
 
 ### Solutions Tracker 
+11-18-2022:
+- [1572. Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) 
+	+ Used two for loops (linear time) to calculate the primary diagonal sum, and then the secondary diagonal sum. Considering using another solution with two pointers? This way, we only have to iterate over the array once? 
+
 11-15-2022:
 - [383. Ransom Note](https://leetcode.com/problems/ransom-note/) 
 	+ Created a hashmap with the characters from the magazine string. Then iterated over the characters from the ransom note to see if there were enough of each char available. 
