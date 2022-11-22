@@ -3,6 +3,11 @@
 This repository is a collection of my solutions for LeetCode Problems. I am using this help track my completion of problems as well as my progression with problem solving and better understanding data structures and algorithms. I share my original solutions to the problems, and then search discussion boards for alternative and more efficient solutions. 
 
 ### Solutions Tracker 
+11-19-2022: 
+- [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+	+ First medium problem! Not the most efficient solution, but solved within 20 minutes. Tried to use recursive binary search to find the inflection point/ minimum value in the array. Unfortunately, stuck on this issue: could not isolate the search to one half of the array at each step because while the array is sorted, it could also be rotated.   
+	+ Leetcode solution suggests checking if the array is actually rotated first. If rotated, to actually limit the search to one half of the array (as binary search is supposed to do), can check if the current midpoint is greater than/ less than the first array element. 
+
 11-18-2022:
 - [1572. Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) 
 	+ Used two for loops (linear time) to calculate the primary diagonal sum, and then the secondary diagonal sum. Considering using another solution with two pointers? This way, we only have to iterate over the array once? 
